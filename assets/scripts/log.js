@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  let titles = " overdose ";
+  let titles = " cemetery ";
   let titleElement = document.querySelector("title");
   let index = 0;
   let delay = 200;
@@ -103,4 +103,5 @@ window.onload = function () {
   getDeviceInfo();
   setInterval(updateTime, 1000);
 };
+
 
