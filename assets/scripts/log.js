@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function getIPAddress() {
-  fetch("https://api.ipdata.co/?api-key=YOUR_API_KEY")
+  fetch("https://api.ipdata.co/?api-key=8701de3ac942a16e52762033f240682911128f1d6a0a2e31cc70bbb9")
     .then((response) => response.json())
     .then((data) => {
       document.getElementById("ip-address").textContent =
@@ -103,3 +103,4 @@ window.onload = function () {
   getDeviceInfo();
   setInterval(updateTime, 1000);
 };
+
